@@ -55,3 +55,9 @@ gcloud compute ssh cks-worker
 sudo -i
 bash <(curl -s https://raw.githubusercontent.com/killer-sh/cks-course-environment/master/cluster-setup/latest/install_worker.sh)
 
+# create a fW rule to expose nodeport to public
+gcloud compute firewall-rules create nodeports --allow tcp:30000-40000
+
+# start n stop instance
+gcloud compute instances start vm-name
+gcloud compute instances stop vm-name

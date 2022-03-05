@@ -1,6 +1,6 @@
 #!/bin/bash
 git add .
-git commit -m 'K8s resources'
+git commit -m 'Container under d hood'
 git push origin main
 
 
