@@ -1,6 +1,6 @@
 #!/bin/bash
 git add .
-git commit -m 'Networl policy default deny n allow'
+git commit -m 'k8s dashboard'
 git push origin main
 
 
