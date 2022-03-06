@@ -1,6 +1,6 @@
 #!/bin/bash
 git add .
-git commit -m 'k8s dashboard'
+git commit -m 'kube-benchmark'
 git push origin main
 
 
