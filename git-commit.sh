@@ -1,6 +1,6 @@
 #!/bin/bash
 git add .
-git commit -m 'kube-benchmark'
+git commit -m 'role rolebinding'
 git push origin main
 
 
